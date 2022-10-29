@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECECEC"
+    android:backgroundTint="#FBF1F8"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#DFEA70"
+        android:backgroundTint="#F6F0AB"
+        android:rotationX="2"
+        android:rotationY="2"
+        android:text="                          calculator"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#6C79C1"
+        android:ems="10"
+        android:hint="first number"
+        android:inputType="textPersonName"
+        android:rotationX="10"
+        android:textColor="#88D88B"
+        android:textColorHighlight="#4CAF50"
+        android:textColorHint="#86D589"
+        android:textColorLink="#100000" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#3E7DEA"
+        android:ems="10"
+        android:hint="second number"
+        android:inputType="textPersonName"
+        android:textColor="#7FD882"
+        android:textColorHighlight="#000202"
+        android:textColorHint="#8DD690"
+        android:textColorLink="#000000" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#8FD892"
+        android:text="Button" />
+
+</LinearLayout>
